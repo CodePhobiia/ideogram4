@@ -1,0 +1,5 @@
+# Training deps ON TOP OF the ideogram4 package (torch, transformers, bitsandbytes,
+# accelerate, einops, safetensors, pillow, huggingface_hub — installed via `pip install -e .`).
+# The only real addition is PEFT for QLoRA.
+peft>=0.13.0
+numpy
